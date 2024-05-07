@@ -6,81 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Google landing page</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e4ae57ae73.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
   </head>
   <body>
-    <main>
-      <header>
         <nav>
           <a class="menu-item" href="#">Gmail</a>
           <a class="menu-item" href="#">Images</a>
-          <div id="dropdown-wrapper">
-            <i id="dropdown-menu" class="material-icons">apps</i>
+          <span id="dropdown-menu"><i class="material-icons">apps</i>
             <div id="app-dropdown">
               <div class="app-item">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/300/300221.png"
-                  alt="search"
-                />
+                <i class="fa-brands fa-google"></i>
                 <p>Search</p>
               </div>
               <div class="app-item">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/888/888856.png"
-                  alt="map"
-                />
+                <i class="fa-solid fa-map-location"></i>
                 <p>Map</p>
               </div>
               <div class="app-item">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/5968/5968523.png"
-                  alt="drive"
-                />
+                <i class="fa-brands fa-google-drive"></i>
                 <p>Drive</p>
               </div>
               <div class="app-item">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/2504/2504710.png"
-                  alt="calender"
-                />
+                <i class="fa-solid fa-calendar-days"></i>
                 <p>Calender</p>
               </div>
               <div class="app-item">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/281/281758.png"
-                  alt="photo"
-                />
+                <i class="fa-solid fa-image"></i>
                 <p>Photo</p>
               </div>
               <div class="app-item">
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/2875/2875444.png"
-                  alt="keep"
-                />
-                <p>Keep</p>
+                <i class="fa-brands fa-youtube"></i>
+                <p>Youtube</p>
               </div>
             </div>
-          </div>
-          <img class="profile-pic" src="bg.png" alt="logo" />
+          </span>
+          <span class="user">
+            <i class="fa-solid fa-circle-user"></i>
+          </span>
         </nav>
-      </header>
-
+<!-- ..........................................  -->
       <section>
         <div class="logo">
-          <img class="google-logo" src="googles.png" alt="logos" />
+          <img src="googles.png" alt="logos" width="25%" />
         </div>
         <div id="input-wrapper">
           <input id="search-box" type="text" />
-          <img class="voice-img" src="voice.png" alt="voice" />
+          <i class="fa-solid fa-microphone"></i>
         </div>
         <div>
           <button class="btn">Google Search</button>
           <button class="btn">I'm Feeling Lucky</button>
         </div>
       </section>
-    </main>
   </body>
 </html>
